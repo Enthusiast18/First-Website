@@ -1,4 +1,3 @@
 # First-Website
-grass.jpg: 
-Photo by Alexey Demidov from Pexels
+All photos by Alexey Demidov from Pexels
 

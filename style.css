@@ -58,6 +58,11 @@ ul {
     color: #E5E7EB;
 }
 
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
 .bold {
     font-weight: 1000;
     font-size: 48px;
@@ -80,10 +85,12 @@ button {
     padding: 10px 30px 10px;
 }
 
-img {
+.image1 {
     height: 230px;
     width: auto;
-    padding-bottom: 50px;
+    margin-bottom: 50px;
+    border: solid cadetblue;
+    border-radius: 10px;
 }
 
 .info {
@@ -92,7 +99,7 @@ img {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    margin-bottom: 50px;
+    margin-bottom: 200px;
     gap: 52px;
 }
 
@@ -105,10 +112,78 @@ img {
     text-align: center;
 }
 
+.image2 {
+    height: 200px;
+    max-width: 200px;
+    margin-bottom: 10px;
+    border: solid blue;
+    border-radius: 10px;
+}
+
 .box {
-    max-width: 300px;
-    max-height: 300px;
+    width: 200px;
+    height: 200px;
     padding: 10px;
 }
 
+.quote {
+    background-color: #E5E7Eb;
+    font-size: 36px;
+    color: #1F2937;
+    padding: 100px 200px 100px;
+    font-style:italic;
+    font-weight: 100;
+}
 
+.quote-text {
+    margin: 0;
+    padding: 0;
+}
+
+.subtext {
+    color: #1F2937;
+    display: block;
+    font-style: normal;
+    font-size: 24px;
+    font-weight: 700;
+    display: flex;
+    justify-content: right;
+    margin-right: 10px;
+}
+
+.blue {
+    background-color: white;
+}
+
+.banner {
+    background-color: #3882F6;
+    margin: 100px 180px 100px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 100px 50px;
+}
+
+.card {
+    color: white;
+    margin-right: 10px;
+}
+
+.action {
+    font-weight: 700;
+    font-size: 18px;
+    padding-bottom: 5px;
+}
+
+.end-sign {
+    border: solid white;
+    font-weight: 900;
+    padding: 10px 25px 10px ; 
+}
+
+.footer {
+    text-align: center;
+    background-color: #1F2937;
+    color: white;
+    padding: 50px 0 50px;
+}
